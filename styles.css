@@ -1,0 +1,229 @@
+@import "tailwindcss" source(none);
+@source "../src";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --font-display: "Bricolage Grotesque", ui-sans-serif, system-ui, sans-serif;
+  --font-sans: "DM Sans", ui-sans-serif, system-ui, sans-serif;
+  --radius-sm: calc(var(--radius) - 6px);
+  --radius-md: calc(var(--radius) - 4px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 2px);
+  --radius-2xl: calc(var(--radius) + 4px);
+  --radius-3xl: calc(var(--radius) + 8px);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-ring-offset-background: var(--background);
+  --color-safe: var(--safe);
+  --color-safe-foreground: var(--safe-foreground);
+  --color-safe-text: var(--safe-text);
+  --color-risk: var(--risk);
+  --color-risk-foreground: var(--risk-foreground);
+  --color-risk-text: var(--risk-text);
+  --color-lilac: var(--lilac);
+  --color-lilac-text: var(--lilac-text);
+  --color-plum: var(--plum);
+  --color-chalk: var(--chalk);
+  --color-nav: var(--nav);
+  --color-nav-foreground: var(--nav-foreground);
+  --color-nav-muted: var(--nav-muted);
+  --color-nav-active: var(--nav-active);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --color-chart-6: var(--chart-6);
+}
+
+:root {
+  --radius: 1.125rem;
+  --plum: oklch(0.225 0.05 290);
+  --chalk: oklch(0.962 0.013 300);
+  --lilac: oklch(0.77 0.13 290);
+
+  --background: var(--chalk);
+  --foreground: var(--plum);
+  --card: oklch(1 0 0);
+  --card-foreground: var(--plum);
+  --popover: oklch(1 0 0);
+  --popover-foreground: var(--plum);
+  --primary: var(--lilac);
+  --primary-foreground: var(--plum);
+  --secondary: oklch(0.93 0.025 295);
+  --secondary-foreground: var(--plum);
+  --muted: oklch(0.94 0.015 295);
+  --muted-foreground: oklch(0.45 0.04 290);
+  --accent: oklch(0.92 0.04 292);
+  --accent-foreground: var(--plum);
+  --destructive: oklch(0.55 0.2 30);
+  --destructive-foreground: oklch(1 0 0);
+  --border: oklch(0.89 0.02 295);
+  --input: oklch(0.86 0.025 295);
+  --ring: oklch(0.5 0.16 290);
+
+  --safe: oklch(0.71 0.12 178);
+  --safe-foreground: var(--plum);
+  --safe-text: oklch(0.47 0.09 178);
+  --risk: oklch(0.72 0.17 38);
+  --risk-foreground: var(--plum);
+  --risk-text: oklch(0.52 0.17 35);
+  --lilac-text: oklch(0.47 0.16 290);
+
+  --nav: var(--plum);
+  --nav-foreground: oklch(0.96 0.013 300);
+  --nav-muted: oklch(0.78 0.03 295);
+  --nav-active: oklch(0.32 0.07 290);
+
+  --chart-1: var(--lilac);
+  --chart-2: var(--safe);
+  --chart-3: var(--risk);
+  --chart-4: oklch(0.82 0.13 85);
+  --chart-5: oklch(0.6 0.14 250);
+  --chart-6: oklch(0.65 0.03 290);
+
+  --gradient-sky: linear-gradient(
+    135deg,
+    oklch(0.8 0.11 292) 0%,
+    oklch(0.55 0.13 290) 55%,
+    var(--plum) 100%
+  );
+  --shadow-card: 0 1px 2px oklch(0.225 0.05 290 / 6%), 0 8px 24px -12px oklch(0.225 0.05 290 / 18%);
+  --shadow-lift: 0 14px 40px -18px oklch(0.225 0.05 290 / 40%);
+}
+
+.dark {
+  --background: var(--plum);
+  --foreground: oklch(0.96 0.013 300);
+  --card: oklch(0.285 0.055 290);
+  --card-foreground: oklch(0.96 0.013 300);
+  --popover: oklch(0.285 0.055 290);
+  --popover-foreground: oklch(0.96 0.013 300);
+  --primary: var(--lilac);
+  --primary-foreground: var(--plum);
+  --secondary: oklch(0.33 0.06 290);
+  --secondary-foreground: oklch(0.96 0.013 300);
+  --muted: oklch(0.32 0.05 290);
+  --muted-foreground: oklch(0.8 0.03 295);
+  --accent: oklch(0.36 0.07 290);
+  --accent-foreground: oklch(0.96 0.013 300);
+  --destructive: oklch(0.7 0.17 30);
+  --destructive-foreground: var(--plum);
+  --border: oklch(1 0 0 / 12%);
+  --input: oklch(1 0 0 / 18%);
+  --ring: var(--lilac);
+  --safe-text: oklch(0.8 0.12 178);
+  --risk-text: oklch(0.8 0.14 40);
+  --lilac-text: oklch(0.84 0.1 290);
+  --nav: oklch(0.19 0.045 290);
+  --nav-active: oklch(0.3 0.07 290);
+  --shadow-card: 0 1px 2px oklch(0 0 0 / 30%), 0 10px 30px -14px oklch(0 0 0 / 50%);
+}
+
+@layer base {
+  * {
+    border-color: var(--color-border);
+  }
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-display);
+    letter-spacing: -0.02em;
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-ring);
+    outline-offset: 2px;
+  }
+}
+
+@utility font-display {
+  font-family: var(--font-display);
+}
+@utility money {
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: "tnum";
+}
+@utility bg-sky {
+  background-image: var(--gradient-sky);
+}
+@utility shadow-card {
+  box-shadow: var(--shadow-card);
+}
+@utility shadow-lift {
+  box-shadow: var(--shadow-lift);
+}
+
+/* Ticket card: notches cut out of left/right edges at 60% height. */
+@utility ticket {
+  --notch: 10px;
+  --notch-y: 62%;
+  mask:
+    radial-gradient(circle var(--notch) at 0 var(--notch-y), transparent 98%, #000) left / 51% 100%
+      no-repeat,
+    radial-gradient(circle var(--notch) at 100% var(--notch-y), transparent 98%, #000) right / 51%
+      100% no-repeat;
+}
+/* Perforated tear line. */
+@utility perforation {
+  height: 2px;
+  background-image: radial-gradient(circle, var(--color-border) 1.2px, transparent 1.6px);
+  background-size: 8px 2px;
+  background-repeat: repeat-x;
+}
+@utility flight-path {
+  stroke-dasharray: 6 6;
+}
+
+@keyframes pace-pop {
+  from {
+    transform: translateY(4px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@utility animate-pop {
+  animation: pace-pop 0.35s ease-out both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
