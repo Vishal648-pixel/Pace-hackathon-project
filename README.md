@@ -198,21 +198,15 @@ All values are publishable; never commit secret keys.
 
   ##Screenshots
 
-<img width="1871" height="901" alt="Screenshot 2026-10-11 162724" src="https://github.com/user-attachments/assets/25abbfec-f294-497d-98ef-e045d9e6e10b" />
+<img width="1870" height="893" alt="Screenshot 2026-10-11 162805" src="https://github.com/user-attachments/assets/54c37b3d-9900-408c-96bb-452a6c6c56d7" />![Uploading Screenshot 2026-10-11 162724.png…]()
+<img width="1890" height="901" alt="Screenshot 2026-10-11 162920" src="https://github.com/user-attachments/assets/25ce06c6-bf5d-4b64-bf29-d642e3216a12" />
+<img width="1874" height="896" alt="Screenshot 2026-10-11 162905" src="https://github.com/user-attachments/assets/57e2023f-c49a-439c-93e6-7182a589ec45" />
+<img width="1868" height="879" alt="Screenshot 2026-10-11 162848" src="https://github.com/user-attachments/assets/3bbfdcad-1db8-4d38-8bd4-1821d087b770" />
+<img width="1888" height="903" alt="Screenshot 2026-10-11 162838" src="https://github.com/user-attachments/assets/59694d64-f084-4273-a52a-4e2c41846902" />
+<img width="1856" height="878" alt="Screenshot 2026-10-11 162827" src="https://github.com/user-attachments/assets/94675d24-abb9-4a3a-a8fd-837386f0371a" />
+<img width="1880" height="901" alt="Screenshot 2026-10-11 162815" src="https://github.com/user-attachments/assets/1024a54b-db01-4aad-beb4-f7b20a5222c9" />
 
-<img width="1882" height="896" alt="Screenshot 2026-10-11 162735" src="https://github.com/user-attachments/assets/2997dc50-0819-4f07-9e8b-4087a61851ad" />
 
-<img width="1868" height="901" alt="Screenshot 2026-10-11 162747" src="https://github.com/user-attachments/assets/5be8c0c7-770a-4357-b3e3-1ea6b4ae5a8d" />
-
-<img width="1870" height="893" alt="Screenshot 2026-10-11 162805" src="https://github.com/user-attachments/assets/69b4418f-738f-4e2f-ac6a-daae1cf7e125" />
-
-<img width="1880" height="901" alt="Screenshot 2026-10-11 162815" src="https://github.com/user-attachments/assets/d5c05a3e-299d-472d-b958-667a18278063" />
-
-<img width="1856" height="878" alt="Screenshot 2026-10-11 162827" src="https://github.com/user-attachments/assets/10ed5dee-8d89-450d-9004-ff468cfad071" />
-
-<img width="1888" height="903" alt="Screenshot 2026-10-11 162838" src="https://github.com/user-attachments/assets/5f9ef6df-7713-48a2-981f-5fd2e5a34910" />
-
-<img width="1890" height="901" alt="Screenshot 2026-10-11 162920" src="https://github.com/user-attachments/assets/2e2eb651-8f70-4b96-a4d4-682ecec4b24a" />
 
 
 ## Deployment
