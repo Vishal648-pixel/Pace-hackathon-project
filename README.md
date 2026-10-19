@@ -210,10 +210,7 @@ All values are publishable; never commit secret keys.
 
 
 ## Deployment
-
-- **Lovable:** click Publish.
-- **Vercel:** import the repo, framework "Other", build `npm run build`, empty output directory, add the env vars above.
-## Contributing
+--Deployed on vercel for quick deployment - https://cosmic-money-planner.vercel.app/
 
 See [CONTRIBUTING.md](CONTRIBUTING.md). Architecture decisions live in `AGENTS.md`.
 
